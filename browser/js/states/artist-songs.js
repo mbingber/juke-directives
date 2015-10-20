@@ -1,6 +1,6 @@
 app.config(function ($stateProvider) {
 	$stateProvider.state('artist.songs', {
 		url: '/songs',
-		templateUrl: '/templates/artist-songs.html'
+		template: '<div><h4>SONGS</h4><song-list songs="artist.songs"></song-list></div>'
 	});
 });
